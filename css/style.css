@@ -1,0 +1,12 @@
+a {
+  color: black
+}
+
+
+/* Escritorio */
+@media (min-width: 1024px) {
+  .watch-card {
+      width: calc(33.33% - 20px); 
+  }
+}
+
