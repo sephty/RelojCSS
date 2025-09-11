@@ -6,6 +6,7 @@
     <title>Detalle del Producto - LuxTime</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
   <header class="main-header">
@@ -15,56 +16,117 @@
 
     <nav class="main-nav">
       <div class="nav-container">
-        <a href="index.html" class="logo">
-          <span class="logo-text">LUXTIME</span>
-          <span class="logo-subtext">MINORISTA AUTORIZADO</span>
-
+        <div class="nav-left">
           <ul class="nav-links">
-            <li><a href="#">RELOJES</a></li>
-            <li><a href="#">CORREAS</a></li>
-            <li><a href="#">RELOJES DE PARED</a></li>
+            <li><a href="catalogo.html">RELOJES</a></li>
             <li><a href="#">ACCESORIOS</a></li>
-            <li><a href="#">USO DIARIO</a></li>
-            <li><a href="#">OFERTAS</a></li>
-            <li><a href="#">VISITA NUESTRA TIENDA</a></li>
+            <li><a href="#">TIENDAS</a></li>
+            <li><a href="#" class="sale">OFERTAS</a></li>
           </ul>
-
-          <div class="nav-icons">
-            <a href="contacto.html" class="icon-link"><span class="icon">&#128100;</span></a>
-            <a href="catalogo.html" class="icon-link"><span class="icon">&#128722;</span></a> 
-            <a href="#" class="icon-link"><span class="icon">&#128269;</span></a>
         </div>
-        </a>
+    
+        <div class="nav-center">
+          <a href="index.html" class="logo">
+            <span class="logo-text">LUXTIME</span>
+            <span class="logo-subtext">MINORISTA AUTORIZADO</span>
+          </a>
+        </div>
+    
+        <div class="nav-right">
+          <div class="nav-icons">
+
+            <a href="contacto.html" class="icon-link icon-link-img">
+              <img src="assets/icons/user-hover.png" alt="Cuenta de Usuario" class="icon-default">
+              <img src="assets/icons/user.png" alt="Cuenta de Usuario" class="icon-hover">
+            </a>
+
+            <a href="catalogo.html" class="icon-link icon-link-img">
+              <img src="assets/icons/shopping-cart-hover.png" alt="Carrito de Compras" class="icon-default">
+              <img src="assets/icons/shopping-cart.png" alt="Carrito de Compras" class="icon-hover">
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
 
-    <main>
-        <section class="product-detail">
-            <div class="product-image-area">
-            </div>
-            <div class="product-info">
-                <h1>Nombre del Reloj</h1>
-                <p class="price">€1.299</p>
-                <h3>Descripción Técnica</h3>
-                <p>Materiales: Acero inoxidable, cristal de zafiro...</p>
-                <h3>Personalización</h3>
-            </div>
-            <div class="product-info">
-              <h1></h1>
-            </div>
-        </section>
+  <main>
+    <section class="product-detail-section">
+        <div class="product-image-area">
+            <img src="assets/images/promwatch1.png" alt="THE CHRONOMASTER" class="product-image-zoom">
+        </div>
+        <div class="product-info">
+            <h1>THE CHRONOMASTER</h1>
+            <p class="price">€1.299</p>
+            
+            <h3>Descripción Técnica</h3>
+            <p>Elaborado con precisión suiza, este reloj cuenta con una caja de acero inoxidable 316L, cristal de zafiro antirreflectante y un movimiento automático de 25 joyas. Resistente al agua hasta 100 metros.</p>
+            <ul>
+                <li><strong>Materiales:</strong> Acero inoxidable, cristal de zafiro</li>
+                <li><strong>Tamaño de la caja:</strong> 42mm</li>
+                <li><strong>Peso:</strong> 150g</li>
+            </ul>
 
-        <section class="related-products">
-            <h2>Productos Relacionados</h2>
-            <div class="carousel-container">
+            <h3>Opciones de Personalización</h3>
+            <div class="customization-options">
+                <label for="engraving">Texto de Grabado (simulado)
+                    <input type="text" id="engraving" placeholder="Ej: Para Papá con cariño">
+                </label>
+                <label for="strap">Cambio de Correa (simulado)
+                    <select id="strap">
+                        <option>Correa de Cuero Negro (por defecto)</option>
+                        <option>Correa de Acero Inoxidable</option>
+                        <option>Correa de Lona Azul</option>
+                    </select>
+                </label>
             </div>
-        </section>
-    </main>
-    <p>&copy; 2024 LuxTime. Todos los derechos reservados.</p>
-    <p>Correo de contacto: <a href="mailto:info@luxtime.com">info@luxtime.com</a></p>
-    <p>Desarrollado por: <a href="https://github.com/tu-usuario" target="_blank">Tu Nombre/Usuario</a></p>
-    <footer>
+            <a href="#" class="btn-primary">Añadir al Carrito (Simulado)</a>
+        </div>
+    </section>
+
+    <section class="related-products">
+      <h2>Productos Relacionados</h2>
+      <div class="related-carousel">
+          <!-- Reloj 2 -->
+          <div class="product-card">
+              <img src="assets/images/watch2.jpg" alt="EL VIGILANTE">
+              <h3>EL VIGILANTE</h3>
+              <p class="price">€950</p>
+              <a href="producto2.html" class="btn-secondary">Ver detalles</a>
+          </div>
+          <!-- Reloj 3 -->
+          <div class="product-card">
+              <img src="assets/images/watch3.jpg" alt="LUX ORBITER">
+              <h3>LUX ORBITER</h3>
+              <p class="price">€1.500</p>
+              <a href="producto3.html" class="btn-secondary">Ver detalles</a>
+          </div>
+          <!-- Reloj 4 -->
+          <div class="product-card">
+              <img src="assets/images/watch4.jpg" alt="TEMPO ECLIPSE">
+              <h3>TEMPO ECLIPSE</h3>
+              <p class="price">€890</p>
+              <a href="producto4.html" class="btn-secondary">Ver detalles</a>
+          </div>
+          <!-- Reloj 5 -->
+          <div class="product-card">
+              <img src="assets/images/watch5.jpg" alt="AURORA MASTER">
+              <h3>AURORA MASTER</h3>
+              <p class="price">€1.100</p>
+              <a href="producto5.html" class="btn-secondary">Ver detalles</a>
+          </div>
+      </div>
+  </section>
+    </section>
+</main>
+    
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>&copy; 2024 LuxTime. Todos los derechos reservados.</p>
+        <p>Correo de contacto: <a href="mailto:trillseph@gmail.com">info@luxtime.com</a></p>
+        <p>Desarrollado por: <a href="https://github.com/sephty" target="_blank">Joseph Garcia</a></p>
+        <a href="historia.html"><p> Nuestra Historia</p></a>
+    </div>
     </footer>
 </body>
 </html>

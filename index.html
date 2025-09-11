@@ -6,6 +6,7 @@
       <title>LuxTime - Elegancia y Precisión en Cada Segundo</title>
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/pages.css">
   </head>
   <body>
       <header class="main-header">
@@ -15,23 +16,36 @@
 
         <nav class="main-nav">
           <div class="nav-container">
-            <a href="index.html" class="logo">
-              <span class="logo-text">LUXTIME</span>
-              <span class="logo-subtext">MINORISTA AUTORIZADO</span>
-
+            <div class="nav-left">
               <ul class="nav-links">
                 <li><a href="catalogo.html">RELOJES</a></li>
-                <li><a href="catalogo.html">RELOJES DE PARED</a></li>
-                <li><a href="catalogo.html">ACCESORIOS</a></li>
-                <li><a href="catalogo.html">OFERTAS</a></li>
-                <li><a href="contacto.html">VISITA</a></li>
+                <li><a href="#">ACCESORIOS</a></li>
+                <li><a href="#">TIENDAS</a></li>
+                <li><a href="#" class="sale">OFERTAS</a></li>
               </ul>
-
-              <div class="nav-icons">
-                <a href="contacto.html" class="icon-link"><span class="icon">&#128100;</span></a>
-                <a href="catalogo.html" class="icon-link"><span class="icon">&#128722;</span></a> 
             </div>
-            </a>
+        
+            <div class="nav-center">
+              <a href="index.html" class="logo">
+                <span class="logo-text">LUXTIME</span>
+                <span class="logo-subtext">MINORISTA AUTORIZADO</span>
+              </a>
+            </div>
+        
+            <div class="nav-right">
+              <div class="nav-icons">
+
+                <a href="contacto.html" class="icon-link icon-link-img">
+                  <img src="assets/icons/user-hover.png" alt="Cuenta de Usuario" class="icon-default">
+                  <img src="assets/icons/user.png" alt="Cuenta de Usuario" class="icon-hover">
+                </a>
+
+                <a href="catalogo.html" class="icon-link icon-link-img">
+                  <img src="assets/icons/shopping-cart-hover.png" alt="Carrito de Compras" class="icon-default">
+                  <img src="assets/icons/shopping-cart.png" alt="Carrito de Compras" class="icon-hover">
+                </a>
+              </div>
+            </div>
           </div>
         </nav>
       </header>
@@ -73,35 +87,35 @@
                   <a href="producto1.html" class="btn-secondary">Ver detalles</a>
               </div>
               <div class="watch-card">
-                  <img src="img/watch2.jpg" alt="Reloj Modelo 2">
+                  <img src="assets/images/watch2.jpg" alt="Reloj Modelo 2">
                   <h3>EL VIGILANTE</h3>
                   <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div> 
                   <p class="price">€950</p>
                   <a href="producto2.html" class="btn-secondary">Ver detalles</a>
               </div>
               <div class="watch-card">
-                  <img src="img/watch3.jpg" alt="Reloj Modelo 3">
+                  <img src="assets/images/watch3.jpg" alt="Reloj Modelo 3">
                   <h3>LUX ORBITER</h3>
                   <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> 
                   <p class="price">€1.500</p>
                   <a href="producto3.html" class="btn-secondary">Ver detalles</a>
               </div>
               <div class="watch-card">
-                  <img src="img/watch4.jpg" alt="Reloj Modelo 4">
+                  <img src="assets/images/watch4.jpg" alt="Reloj Modelo 4">
                   <h3>TEMPO ECLIPSE</h3>
                   <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> 
                   <p class="price">€890</p>
                   <a href="producto4.html" class="btn-secondary">Ver detalles</a>
               </div>
               <div class="watch-card">
-                  <img src="img/watch5.jpg" alt="Reloj Modelo 5">
+                  <img src="assets/images/watch5.jpg" alt="Reloj Modelo 5">
                   <h3>AURORA MASTER</h3>
                   <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div> 
                   <p class="price">€1.100</p>
                   <a href="producto5.html" class="btn-secondary">Ver detalles</a>
               </div>
               <div class="watch-card">
-                  <img src="img/watch6.jpg" alt="Reloj Modelo 6">
+                  <img src="assets/images/watch6.jpg" alt="Reloj Modelo 6">
                   <h3>EON CHRONOS</h3>
                   <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div> 
                   <p class="price">€700</p>
@@ -118,10 +132,13 @@
           </section>
       </main>
 
-      <footer>
-        <p>&copy; 2024 LuxTime. Todos los derechos reservados.</p>
-        <p>Correo de contacto: <a href="mailto:trillseph@gmail.com">info@luxtime.com</a></p>
-        <p>Desarrollado por: <a href="https://github.com/sephty" target="_blank">Joseph Garcia</a></p>
+      <footer class="main-footer">
+        <div class="footer-content">
+          <p>&copy; 2024 LuxTime. Todos los derechos reservados.</p>
+          <p>Correo de contacto: <a href="mailto:trillseph@gmail.com">info@luxtime.com</a></p>
+          <p>Desarrollado por: <a href="https://github.com/sephty" target="_blank">Joseph Garcia</a></p>
+          <a href="historia.html"><p> Nuestra Historia</p></a>
+      </div>
       </footer>
   </body>
   </html>

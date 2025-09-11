@@ -6,47 +6,85 @@
     <title>Contacto - LuxTime</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
   <header class="main-header">
-    <div class="top-banner">
-      <p>OBTENGA SU PEDIDO Y ENVIO A TODO EL MUNDO</p>
-    </div>
-
     <nav class="main-nav">
       <div class="nav-container">
-        <a href="index.html" class="logo">
-          <span class="logo-text">LUXTIME</span>
-          <span class="logo-subtext">MINORISTA AUTORIZADO</span>
-
-          <ul class="nav-links">
-            <li><a href="catalogo.html">RELOJES</a></li>
-            <li><a href="catalogo.html">RELOJES DE PARED</a></li>
-            <li><a href="catalogo.html">ACCESORIOS</a></li>
-            <li><a href="catalogo.html">OFERTAS</a></li>
-            <li><a href="contacto.html">VISITA</a></li>
-          </ul>
-
-          <div class="nav-icons">
-            <a href="contacto.html" class="icon-link"><span class="icon">&#128100;</span></a>
-            <a href="catalogo.html" class="icon-link"><span class="icon">&#128722;</span></a> 
+        <div class="nav-left">
         </div>
-        </a>
+        <div class="nav-center">
+          <a href="index.html" class="logo">
+            <span class="logo-text">LUXTIME</span>
+            <span class="logo-subtext">MINORISTA AUTORIZADO</span>
+          </a>
+        </div>
+    
+        <div class="nav-right">
+          <div class="nav-icons">
+
+            <a href="contacto.html" class="icon-link icon-link-img">
+              <img src="assets/icons/user-hover.png" alt="Cuenta de Usuario" class="icon-default">
+              <img src="assets/icons/user.png" alt="Cuenta de Usuario" class="icon-hover">
+            </a>
+
+            <a href="catalogo.html" class="icon-link icon-link-img">
+              <img src="assets/icons/shopping-cart-hover.png" alt="Carrito de Compras" class="icon-default">
+              <img src="assets/icons/shopping-cart.png" alt="Carrito de Compras" class="icon-hover">
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
 
     <main>
         <section class="contact-section">
-            <h2>Contáctanos</h2>
-            <form class="contact-form">
-            </form>
+            <div class="contact-form-container">
+                <h2>Envíanos un Mensaje</h2>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Opcional">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" placeholder="Escribe tu consulta aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </form>
+            </div>
             <div class="additional-contact-info">
+                <h3>Información de Contacto</h3>
+                <ul>
+                    <li><strong>Correo:</strong> <a href="mailto:trillseph@gmail.com">info@luxtime.com</a></li>
+                    <li><strong>Teléfono:</strong> +57  123-456-7890</li>
+                    <li><strong>Dirección:</strong>  Bucaramanga, santander colombia</li>
+                </ul>
+                <h3>Síguenos</h3>
+                <div class="nav-icons">
+                  <a href="#" class="icon-link icon-link-img" target="_blank">
+                    <img src="assets/icons/github.png" alt="Cuenta de Usuario" class="icon-default">
+                    <img src="assets/icons/github-hover.png" alt="Cuenta de Usuario" class="icon-hover">
+                  </a>
+  
+                  <a href="#" class="icon-link icon-link-img">
+                    <img src="assets/icons/instagram.png" alt="Instragram" class="icon-default">
+                    <img src="assets/icons/instagram-hover.png" alt="Instagram" class="icon-hover">
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-    </footer>
+
 </body>
 </html>
