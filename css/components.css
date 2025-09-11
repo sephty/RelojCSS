@@ -1,5 +1,5 @@
 /* --- componentes compartidos --*/
-/* --- Top Banner --- */
+
 .top-banner {
   background-color: #333;
   color: #fff;
@@ -10,7 +10,7 @@
   text-transform: uppercase;
 }
 
-/* --- Main Navigation --- */
+
 .main-nav {
   background-color: #fff;
   border-bottom: 1px solid #eee;
@@ -27,7 +27,7 @@
   height: 100%;
 }
 
-/* Flexbox */
+
 .nav-left, .nav-right {
   flex: 1;
 }
@@ -63,7 +63,7 @@
   margin-top: -2px;
 }
 
-/* Navigation */
+
 .nav-links {
   display: flex;
   gap: 30px;
@@ -110,7 +110,7 @@
   display: block;
 }
 
-/* --- Main Footer --- */
+
 .main-footer {
     background-color: #333;
     color: #fff;
@@ -166,10 +166,10 @@
     padding: 0 15px;
   }
   .nav-left {
-    display: none; /* Hide nav links on mobile */
+    display: none; 
   }
   .nav-center {
-    order: -1; /* Move logo to the far left */
+    order: -1;
     flex: 1;
   }
   .logo {
