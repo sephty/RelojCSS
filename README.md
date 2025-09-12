@@ -43,6 +43,7 @@ El proyecto se enfoca en la maquetación visual y la simulación de interaccione
 
 El repositorio está organizado de la siguiente manera para mantener el código limpio y modular.
 
+``` 
 /
 ├── index.html
 ├── catalogo.html
@@ -50,12 +51,14 @@ El repositorio está organizado de la siguiente manera para mantener el código 
 ├── contacto.html
 ├── producto1.html ... producto20.html
 ├── css/
-│ ├── style.css # Estilos base, variables y layout general
-│ ├── components.css # Estilos para componentes reutilizables (header, footer)
-│ └── pages.css # Estilos específicos para el contenido de cada página
+│   ├── style.css # Estilos base, variables y layout general
+│   ├── components.css # Estilos para componentes reutilizables (header, footer)
+│   └── pages.css # Estilos específicos para el contenido de cada página
 ├── assets/
-│ ├── images/ # Imágenes de relojes, carrusel, historia, etc.
-│ ├── icons/ # Iconos de usuario y carrito (versiones normal y hover)
-│ └── videos/ # Video para la sección de historia en el home
+│   ├── images/ # Imágenes de relojes, carrusel, historia, etc.
+│   ├── icons/ # Iconos de usuario y carrito (versiones normal y hover)
+│   └── videos/ # Video para la sección de historia en el home
 └── README.md
+```
+
 
